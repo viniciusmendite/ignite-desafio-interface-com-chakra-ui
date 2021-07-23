@@ -1,4 +1,5 @@
 import { Flex, Heading, Text, Box, Image } from '@chakra-ui/react';
+import Link from 'next/link';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -74,52 +75,74 @@ export default function Home() {
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
-                  cursor: 'pointer',
-                }}>
-                  <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
-                    Europa
-                  </Text>
-                  <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
-                    O continente mais antigo.
-                  </Text>
-                </Flex>
+                <Link href="/continent/europa" passHref>
+                  <Flex as="a" flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                    cursor: 'pointer',
+                  }}>
+                    <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
+                      Europa
+                    </Text>
+                    <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
+                      O continente mais antigo.
+                    </Text>
+                  </Flex>
+                </Link>
               </SwiperSlide>
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
-                  cursor:'pointer',
-                }}>
-                  <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
-                    Europa
-                  </Text>
-                  <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
-                    O continente mais antigo.
-                  </Text>
-                </Flex>
+                <Link href="/continent/europa" passHref>
+                  <Flex as="a" flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                    cursor: 'pointer',
+                  }}>
+                    <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
+                      Europa
+                    </Text>
+                    <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
+                      O continente mais antigo.
+                    </Text>
+                  </Flex>
+                </Link>
               </SwiperSlide>
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
-                  cursor:'pointer',
-                }}>
-                  <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
-                    Europa
-                  </Text>
-                  <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
-                    O continente mais antigo.
-                  </Text>
-                </Flex>
+                <Link href="/continent/europa" passHref>
+                  <Flex as="a" flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                    cursor: 'pointer',
+                  }}>
+                    <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
+                      Europa
+                    </Text>
+                    <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
+                      O continente mais antigo.
+                    </Text>
+                  </Flex>
+                </Link>
               </SwiperSlide>
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
-                  cursor:'pointer',
-                }}>
-                  <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
-                    Europa
-                  </Text>
-                  <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
-                    O continente mais antigo.
-                  </Text>
-                </Flex>
+                <Link href="/continent/europa" passHref>
+                  <Flex as="a" flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                    cursor: 'pointer',
+                  }}>
+                    <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
+                      Europa
+                    </Text>
+                    <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
+                      O continente mais antigo.
+                    </Text>
+                  </Flex>
+                </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Link href="/continent/europa" passHref>
+                  <Flex as="a" flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                    cursor: 'pointer',
+                  }}>
+                    <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
+                      Europa
+                    </Text>
+                    <Text as="span" color="gray.200" fontSize="2xl" fontWeight="bold">
+                      O continente mais antigo.
+                    </Text>
+                  </Flex>
+                </Link>
               </SwiperSlide>
             </Swiper>
           </Box>
