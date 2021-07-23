@@ -10,8 +10,8 @@ interface ICityCardProps {
 
 export function CityCard({ imageUrl, country, city, countryImageUrl }: ICityCardProps) {
   return (
-    <Box w={256}>
-      <Image src={imageUrl} alt={city} height={173} w="100%" />
+    <Box>
+      <Image borderTopRadius="4px" objectFit="cover" src={imageUrl} alt={city} height={173} w="100%" />
       <Flex align="center" justify="space-between" py="4" px="6" bgColor="white" border="1px solid #FFDC83" borderTop="0" borderBottomRadius="4px">
         <Box>
           <Heading as="h3" fontSize="xl" fontFamily="Barlow" fontWeight="semibold">{city}</Heading>

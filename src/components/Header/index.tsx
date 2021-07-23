@@ -12,7 +12,7 @@ export function Header() {
     <Flex position="relative" as="header" py="7" w="100%" maxW={1240} mx="auto" align="center" justify="center">
       {asPath !== '/' && (
         <Link href="/" passHref>
-          <ChakraLink position="absolute" left="0" transition="filter .2s" _hover={{
+          <ChakraLink pl={['4', '4', '4', '4', '0']} position="absolute" left="0" transition="filter .2s" _hover={{
             filter: 'brightness(0.8)'
           }}>
             <FiChevronLeft size={32} />
