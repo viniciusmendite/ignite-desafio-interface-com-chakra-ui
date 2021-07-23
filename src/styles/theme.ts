@@ -23,6 +23,17 @@ export const theme = extendTheme({
         bg: 'gray.50',
         color: 'gray.400'
       },
+      ".swiper-button-prev, .swiper-button-next": {
+        color: 'yellow.200',
+      },
+      ".swiper-pagination-bullet": {
+        bg: 'gray.300',
+        width: '4',
+        height: '4',
+      },
+      ".swiper-pagination-bullet-active": {
+        bg: 'yellow.200'
+      }
     }
   }
 });
