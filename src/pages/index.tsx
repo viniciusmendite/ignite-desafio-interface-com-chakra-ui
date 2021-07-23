@@ -7,7 +7,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 export default function Home() {
   return (
-    <Box pb="10">
+    <Box as="main" pb="10">
       <Flex bgImage="/images/background.jpg" bgSize="cover" bgPos="center" w="100%" py="20">
         <Flex position="relative" w="100%" maxW={1240} mx="auto">
           <Flex flexDir="column">
@@ -74,7 +74,9 @@ export default function Home() {
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44">
+                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                  cursor: 'pointer',
+                }}>
                   <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
                     Europa
                   </Text>
@@ -84,7 +86,9 @@ export default function Home() {
                 </Flex>
               </SwiperSlide>
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44">
+                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                  cursor:'pointer',
+                }}>
                   <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
                     Europa
                   </Text>
@@ -94,7 +98,9 @@ export default function Home() {
                 </Flex>
               </SwiperSlide>
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44">
+                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                  cursor:'pointer',
+                }}>
                   <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
                     Europa
                   </Text>
@@ -104,7 +110,9 @@ export default function Home() {
                 </Flex>
               </SwiperSlide>
               <SwiperSlide>
-                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44">
+                <Flex flexDir="column" align="center" bgImage="/images/continent-image.jpg" bgSize="cover" bgPosition="center" py="44" _hover={{
+                  cursor:'pointer',
+                }}>
                   <Text as="strong" fontSize="5xl" fontWeight="bold" color="gray.50">
                     Europa
                   </Text>
